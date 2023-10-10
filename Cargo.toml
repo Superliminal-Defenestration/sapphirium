@@ -1,8 +1,16 @@
 [package]
 name = "sapphirium"
+authors = ["Henry Moore <henrydmoore23@gmail.com>"]
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+# graphics
+winit = "0.28"
+wgpu = "0.17"
+
+# logging + error handling
+log = "0.4"
+env_logger = "0.10"
